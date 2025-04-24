@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+
+        body{
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            color: #333;
+            padding: 20px;
+        }
+        section{
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        
+            max-width: 400px;
+            margin: auto;
+            text-align: center;
+
+            
+        
+        }
+        .mi_nombre{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .suma, .mul, .resta{
+            font-size: 18px;
+        }
+        .suma{
+            color: green;
+        }   
+        .mul{
+            color: blue;
+        }
+        .resta{
+            color: red;
+        }
+
+        .mi_nombre, .suma, .mul, .resta{
+            margin: 10px 0;
+        }
+        
+
+
+
+    </style>
+    
+    <!-- 
+            1.Crear una función para pedir su nombre, luego pediremos un número para "x", luego pediremos un número
+            para "y" y un número para "Z".
+            2. Sumaremos, multiplicaremos y restaremos esos 3 valores.
+            3. Luego imprimiremos el nombre de la persona, luego la suma, luego la multplicación y por último la división
+            
+            Recuerden aplicar prompt, parseInt, document.getElementById e InnerHTML.
+            
+        
+         -->
+    <section>
+    <div class="mi_nombre" id="nombre"> </div>
+    <div class="suma" id="suma"></div>
+    <div class="mul" id="multiplicacion"></div>
+    <div class="resta" id="resta"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
